@@ -32,7 +32,7 @@ Uploaded to this repository as result.txt, result-p1.png, result-p2.png
 
 ### How to play the lottery. Probability of the prize
 Probability is computated subtracting upper match.
-For example, lowest (9th) prize ($2) is single match of MB which is 1/25. However, This is part of 8th (1+MB), 7th (2+MB), 5th(3+MB), 3rd(4+MB),and jackpot (5+MB). By subtracting those probability. The probability of 9th is ~1/37.
+For example, lowest (9th) prize ($2) is single match of MB which is 1/25. However, This is part of 8th (1+MB), 7th (2+MB), 5th(3+MB), 3rd(4+MB),and jackpot (5+MB). By subtracting those probability. The probability of 9th is ~1/37. It is show as one in 37 in the list of odds.
 
 ![Probability](https://user-images.githubusercontent.com/11202459/181942500-24b16f7c-377f-47ca-aaa8-34063502e9f7.jpg)
 
