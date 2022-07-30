@@ -7,7 +7,7 @@ Python3 script with following options:
 -  -j <NUM>, --jpFind <NUM>: show jackpot combinations. If <NUM> is 1, the script continues until it find jackpot. If <NUM> is 2, end with finding 2nd prize.
 ** NOTE) ** Regardless -j 1, or -j 2. This script may crash at around 400 milillon candidates with out of memory for assoc list (maybe).
 
-## Customization
+## Customize
 1. random seed: variable rnd_seed is given as random seed.
 2. ticket candidates: set cr_assoc[n_apper] : n_apper is appearance count for randomly selected combination. A list given to cr_assoc[n_appear] where:
  - 1st elemnt: m_candi: number of candidates shown
@@ -20,6 +20,7 @@ Suppose:
     display m_candi candidates for K times appeard conbinations
     In the list, Mth and N the conbinations are purchased.
 ```
+3. jackpot number: set jackpot number for jackpot checking at jp_ball, jp_mega initialliztion. Current values are from drawing result [7, 29, 60,63,66] Mega:[15] on Tue. July 26, 2022.
 
 ### Example
 Uploaded to this repository as result.txt, result-p1.png, result-p2.png
