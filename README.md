@@ -4,7 +4,7 @@ MegaMillion Lottery candidate computation, displaying bought tickets, jackpot ab
 ## Script
 Python3 script with following options:
 - -c, --chkJp: check jackpot for ticket purchased, which is described in 4th parameter in cr_assoc in the source.
--  -j <NUM>: show jackpot combinations. If <NUM> is 1, the script continues until it find jackpot. If <NUM> is 2, end with finding 2nd prize.
+-  -j <NUM>, --jpFind <NUM>: show jackpot combinations. If <NUM> is 1, the script continues until it find jackpot. If <NUM> is 2, end with finding 2nd prize.
 ** NOTE) ** Regardless -j 1, or -j 2. This script may crash at around 400 milillon candidates with out of memory for assoc list (maybe).
 
 ## Customization
