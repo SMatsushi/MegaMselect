@@ -29,3 +29,12 @@ Uploaded to this repository as result.txt, result-p1.png, result-p2.png
 
 ### result-p2.png
 ![result-p2](https://user-images.githubusercontent.com/11202459/181937921-29080e1e-4442-4b76-ac07-2836aaaa3d6a.png)
+
+### How to play the lottery. Probability of the prize
+Probability is computated subtracting upper match.
+For example, lowest (9th) prize ($2) is single match of MB which is 1/25. However, This is part of 8th (1+MB), 7th (2+MB), 5th(3+MB), 3rd(4+MB),and jackpot (5+MB). By subtracting those probability. The probability of 9th is ~1/37.
+
+![Probability](https://user-images.githubusercontent.com/11202459/181942500-24b16f7c-377f-47ca-aaa8-34063502e9f7.jpg)
+
+### Drawing result on Tue. July 26, 2022
+![20220726-drawingResult](https://user-images.githubusercontent.com/11202459/181942569-a25ed134-1b16-4cbd-ba71-ff8135382e1d.jpg)
