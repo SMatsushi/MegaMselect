@@ -28,4 +28,4 @@ Uploaded to this repository as result.txt, result-p1.png, result-p2.png
 ![result-p1](https://user-images.githubusercontent.com/11202459/181937780-0c9be39f-9a49-4e0c-826a-2561e3dad393.png)
 
 ### result-p2.png
-
+![result-p2](https://user-images.githubusercontent.com/11202459/181937921-29080e1e-4442-4b76-ac07-2836aaaa3d6a.png)
