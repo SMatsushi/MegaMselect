@@ -1,0 +1,119 @@
+$ ./MegaMselect.py -c -j 2
+Search (n_appear, m_candi) = (1,5),(2,20),(3,6), rndSeed=12345678 ...
+ continue to find #2 prize.
+loop=1 (na, nc)=(1,1),(2,0),(3,0), done=False
+loop=500001 (na, nc)=(1,499573),(2,428),(3,0), done=False
+loop=1000001 (na, nc)=(1,998204),(2,1794),(3,3), done=False
+loop=1340856 (na, nc)=(1,1337583),(2,3267),(3,6), done=True
+1 appear:
+   1: 10,13,30,33,66, Mega:11 : 1 times at loop 1
+   2: 4,16,20,45,64, Mega:2 : 1 times at loop 2
+   3: 6,29,48,59,62, Mega:8 : 1 times at loop 3
+   4: 5,9,17,33,48, Mega:14 : 1 times at loop 4
+   5: 8,24,36,40,49, Mega:5 : 1 times at loop 5
+    : 29,60,62,63,66, Mega:2 : 1 times at loop 147
+    : 6,7,60,63,66, Mega:4 : 1 times at loop 51115
+    : 7,29,46,60,66, Mega:17 : 1 times at loop 53470
+    : 7,29,49,60,63, Mega:10 : 1 times at loop 125957
+    : 7,29,55,60,63, Mega:4 : 1 times at loop 130383
+    : 7,29,50,60,66, Mega:14 : 1 times at loop 174879
+    : 7,29,51,60,66, Mega:24 : 1 times at loop 196147
+    : 7,50,60,63,66, Mega:16 : 1 times at loop 202865
+    : 29,43,60,63,66, Mega:11 : 1 times at loop 292841
+    : 7,29,31,60,66, Mega:15 : 1 times at loop 336381
+    : 7,29,46,60,63, Mega:1 : 1 times at loop 370706
+    : 1,29,60,63,66, Mega:16 : 1 times at loop 445237
+    : 27,29,60,63,66, Mega:15 : 1 times at loop 475011
+    : 16,29,60,63,66, Mega:23 : 1 times at loop 490143
+    : 7,29,33,63,66, Mega:4 : 1 times at loop 577871
+    : 7,13,29,63,66, Mega:24 : 1 times at loop 647242
+    : 5,7,60,63,66, Mega:2 : 1 times at loop 649554
+    : 7,29,36,60,66, Mega:2 : 1 times at loop 663140
+    : 7,44,60,63,66, Mega:3 : 1 times at loop 694891
+    : 7,29,44,60,63, Mega:14 : 1 times at loop 717941
+    : 7,29,57,60,66, Mega:12 : 1 times at loop 721373
+    : 6,7,29,60,66, Mega:1 : 1 times at loop 725798
+    : 7,19,29,60,66, Mega:14 : 1 times at loop 728740
+    : 7,29,43,60,66, Mega:22 : 1 times at loop 780514
+    : 19,29,60,63,66, Mega:15 : 1 times at loop 790916
+    : 7,29,39,63,66, Mega:4 : 1 times at loop 816098
+    : 7,27,29,63,66, Mega:16 : 1 times at loop 863182
+    : 2,7,29,60,66, Mega:11 : 1 times at loop 869417
+    : 14,29,60,63,66, Mega:23 : 1 times at loop 939262
+    : 7,17,60,63,66, Mega:7 : 1 times at loop 952911
+    : 3,7,60,63,66, Mega:14 : 1 times at loop 999421
+    : 4,7,60,63,66, Mega:14 : 1 times at loop 1018974
+    : 7,26,29,60,63, Mega:20 : 1 times at loop 1040320
+    : 3,7,29,63,66, Mega:11 : 1 times at loop 1087671
+    : 7,59,60,63,66, Mega:2 : 1 times at loop 1102138
+    : 7,11,60,63,66, Mega:7 : 1 times at loop 1125580
+    : 27,29,60,63,66, Mega:19 : 1 times at loop 1133432
+    : 1,7,60,63,66, Mega:2 : 1 times at loop 1193210
+    : 7,29,52,60,66, Mega:11 : 1 times at loop 1203490
+    : 7,29,30,63,66, Mega:8 : 1 times at loop 1220806
+    : 7,29,48,63,66, Mega:22 : 1 times at loop 1262764
+    : 7,25,60,63,66, Mega:18 : 1 times at loop 1310037
+    : 25,29,60,63,66, Mega:18 : 1 times at loop 1332217
+
+2 appear:
+   1: 4,16,20,37,53, Mega:10 : 2 times at loop 30361
+   2: 17,24,27,45,52, Mega:9 : 2 times at loop 60665
+   3: 11,17,36,52,63, Mega:16 : 2 times at loop 61989
+   4: 4,38,39,42,45, Mega:7 : 2 times at loop 65213
+   5: 22,23,24,35,65, Mega:12 : 2 times at loop 68864
+   6: 26,27,37,61,69, Mega:19 : 2 times at loop 73790
+   7: 13,36,47,51,60, Mega:17 : 2 times at loop 75153
+   8: 14,30,37,39,56, Mega:3 : 2 times at loop 93379
+   9: 5,6,34,46,57, Mega:20 : 2 times at loop 97416
+  10: 2,10,21,32,39, Mega:12 : 2 times at loop 98212
+  11: 6,16,29,34,66, Mega:15 : 2 times at loop 99672
+  12: 5,17,26,59,65, Mega:11 : 2 times at loop 100681
+  13: 2,24,34,50,57, Mega:10 : 2 times at loop 102223
+  14: 21,46,59,63,69, Mega:4 : 2 times at loop 106289
+  15: 8,20,28,31,54, Mega:3 : 2 times at loop 106580
+  16: 16,25,53,59,60, Mega:21 : 2 times at loop 106929
+  17: 18,23,34,55,67, Mega:15 : 2 times at loop 107448
+  18: 15,26,50,54,67, Mega:4 : 2 times at loop 108970
+  19: 24,28,30,51,64, Mega:14 : 2 times at loop 109210
+  20: 4,22,42,46,67, Mega:15 : 2 times at loop 111314
+
+3 appear:
+   1: 16,37,51,55,56, Mega:22 : 3 times at loop 764604
+   2: 6,31,44,66,69, Mega:5 : 3 times at loop 901781
+   3: 12,13,24,38,69, Mega:1 : 3 times at loop 989499
+   4: 4,30,36,44,68, Mega:24 : 3 times at loop 1077944
+   5: 2,6,16,24,29, Mega:14 : 3 times at loop 1319799
+   6: 40,51,58,61,66, Mega:4 : 3 times at loop 1340856
+
+   : 7,29,32,60,63, Mega:1 : 1 times at loop 1348053
+   : 29,49,60,63,66, Mega:2 : 1 times at loop 1380344
+   : 7,27,60,63,66, Mega:1 : 1 times at loop 1382536
+   : 7,29,47,60,66, Mega:15 : 1 times at loop 1398973
+   : 7,32,60,63,66, Mega:5 : 1 times at loop 1399972
+   : 7,25,60,63,66, Mega:2 : 1 times at loop 1403861
+   : 7,29,32,60,63, Mega:16 : 1 times at loop 1435617
+   : 7,29,54,63,66, Mega:20 : 1 times at loop 1476153
+loop=1500001 (na, nc)=(1,1495909),(2,4086),(3,6), done=False
+   : 7,12,60,63,66, Mega:7 : 1 times at loop 1501310
+   : 7,23,29,63,66, Mega:15 : 1 times at loop 1534276
+   : 29,37,60,63,66, Mega:5 : 1 times at loop 1600350
+   : 29,50,60,63,66, Mega:20 : 1 times at loop 1601164
+   : 7,29,56,63,66, Mega:11 : 1 times at loop 1618593
+   : 7,29,53,60,63, Mega:15 : 1 times at loop 1627935
+   : 7,48,60,63,66, Mega:8 : 1 times at loop 1633340
+   : 7,29,30,63,66, Mega:10 : 1 times at loop 1655709
+   : 7,29,32,60,66, Mega:5 : 1 times at loop 1675708
+   : 29,31,60,63,66, Mega:18 : 1 times at loop 1748600
+   : 7,29,60,65,66, Mega:9 : 1 times at loop 1779281
+   : 7,29,53,63,66, Mega:7 : 1 times at loop 1832036
+   : 7,14,29,60,63, Mega:1 : 1 times at loop 1898654
+   : 4,29,60,63,66, Mega:10 : 1 times at loop 1922568
+   : 7,29,60,65,66, Mega:1 : 1 times at loop 1934500
+loop=2000001 (na, nc)=(1,1992718),(2,7262),(3,21), done=False
+   : 7,12,29,63,66, Mega:15 : 1 times at loop 2003131
+   : 17,29,60,63,66, Mega:12 : 1 times at loop 2070814
+   : 7,29,43,60,63, Mega:8 : 1 times at loop 2239012
+   : 29,34,60,63,66, Mega:23 : 1 times at loop 2241568
+   : 1,29,60,63,66, Mega:23 : 1 times at loop 2277282
+^C
+

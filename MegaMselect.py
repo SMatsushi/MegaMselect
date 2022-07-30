@@ -86,7 +86,8 @@ while True:
         ckres = jackpotChk(b_picked, m_picked)
         if ckres[2] >= 4:  # above 4th prize
 #            if ckres[2] == 5 or ckres[3] == 1:  # above 3nd
-            print(f"{m}: {ckres[0]} Mega:{ckres[1]} : {n_appear} times at loop {loop}")
+            m = ''
+            print(f"{m:>3}: {ckres[0]} Mega:{ckres[1]} : {n_appear} times at loop {loop}")
             if ckres[2] == 5:  # above 2nd prize
                 if jpFind >= 2: # 2nd found break
                     break
@@ -96,16 +97,18 @@ while True:
     else:
         cr_assoc[n_appear][1] += 1
         m = cr_assoc[n_appear][1]   # m_candi count
-        if m <= cr_assoc[n_appear][0]:  # needed m_candi
+        ckres = jackpotChk(b_picked, m_picked)
+        if m <= cr_assoc[n_appear][0] or ckres[2] >= 4:  # needed m_candi or above 4th prize
+            if m > cr_assoc[n_appear][0]:
+                m = ''   #  enough m_candi, only jackpot check
             if chkJp or jpFind > 0:
-                ckres = jackpotChk(b_picked, m_picked)
                 if m in cr_assoc[n_appear][3]:
                     # tiecket bought
-                    cr_assoc[n_appear][2].append(f"{hl_green}{m}:{hl_out} {ckres[0]} Mega:{ckres[1]} {hl_green}: {n_appear} times at loop {loop}{hl_out}")
+                    cr_assoc[n_appear][2].append(f"{hl_green}{m:>3}:{hl_out} {ckres[0]} Mega:{ckres[1]} {hl_green}: {n_appear} times at loop {loop}{hl_out}")
                 else:
-                    cr_assoc[n_appear][2].append(f"{m}: {ckres[0]} Mega:{ckres[1]} : {n_appear} times at loop {loop}")
+                    cr_assoc[n_appear][2].append(f"{m:>3}: {ckres[0]} Mega:{ckres[1]} : {n_appear} times at loop {loop}")
             else:
-                cr_assoc[n_appear][2].append(f"{m}: {b_picked}, Mega:{m_picked} : {n_appear} times at loop {loop}")
+                cr_assoc[n_appear][2].append(f"{m:>3}: {b_picked}, Mega:{m_picked} : {n_appear} times at loop {loop}")
         for key in cr_assoc.keys():
             if cr_assoc[key][1] < cr_assoc[key][0]:  # not done as m_candi count < needed m_candi
                 done = False
